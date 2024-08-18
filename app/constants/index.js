@@ -23,12 +23,12 @@ export const PROJECTS = [
   {
     name: "ReactWrite",
     image: ReactWriteImg,
-    url: "https://github.com/Rhythm1821/ReactWrite",
+    url: "https://react-write-lemon.vercel.app",
   },
   {
     name: "TweeterSphere",
     image: TweeterSphereImg,
-    url: "https://github.com/Rhythm1821/TweeterSphere",
+    url: "https://tweetersphere.onrender.com",
   },
   {
     name: "Body Language Detection",

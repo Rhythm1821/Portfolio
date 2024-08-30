@@ -9,18 +9,18 @@ export default function Projects() {
               >
                 Projects
             </h2>
-            <div className="flex flex-wrap items-center justify-center gap-2">
+            <div className="flex flex-wrap items-center justify-center gap-8"> {/* Increased gap */}
                 {
-                    PROJECTS.map((project,index)=>(
+                    PROJECTS.map((project, index) => (
                         <a key={index} href={project.url} target="_blank">
-                        <h1>{project.name}</h1>
-                        <Image
-                            src={project.image}
-                            width={300}
-                            height={300}
-                            alt={project.name} 
-                            className="rounded-3xl" />
-                    </a>
+                            <h1>{project.name}</h1>
+                            <Image
+                                src={project.image}
+                                width={300}
+                                height={300}
+                                alt={project.name} 
+                                className="rounded-3xl" />
+                        </a>
                     ))
                 }
             </div>

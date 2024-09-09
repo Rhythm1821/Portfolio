@@ -1,12 +1,8 @@
 import company1 from "../../public/c1.jpeg";
-import company2 from "../../public/c2.jpeg";
-import company3 from "../../public/c3.jpeg";
-import company4 from "../../public/c4.jpeg";
-
 import RepTrackerImg from "../../public/RepTrackerImg.jpg";
 import ReactWriteImg from "../../public/ReactWriteImg.jpeg";
 import TweeterSphereImg from "../../public/TweeterSphereImg.jpeg";
-import BodyLangDetImg from "../../public/BodyLangDetImg.jpeg";
+import GatherLyImg from "../../public/GatherLy.jpeg";
 
 export const PROFILE = {
   name: "Rhythm Rawat",
@@ -16,24 +12,24 @@ export const PROFILE = {
 
 export const PROJECTS = [
   {
-    name: "RepTracker-AI",
-    image: RepTrackerImg,
-    url: "https://github.com/Rhythm1821/RepTrackerAI",
-  },
-  {
     name: "ReactWrite",
     image: ReactWriteImg,
     url: "https://react-write-lemon.vercel.app",
   },
   {
+    name: "GatherLy",
+    image: GatherLyImg,
+    url: "https://gatherly-v4r2.onrender.com/",
+  },
+  {
+    name: "RepTracker-AI",
+    image: RepTrackerImg,
+    url: "https://github.com/Rhythm1821/RepTrackerAI",
+  },
+  {
     name: "TweeterSphere",
     image: TweeterSphereImg,
     url: "https://tweetersphere.onrender.com",
-  },
-  {
-    name: "Body Language Detection",
-    image: BodyLangDetImg,
-    url: "https://github.com/Rhythm1821/Body-Language-Detections",
   },
 ];
 

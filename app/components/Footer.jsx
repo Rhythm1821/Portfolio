@@ -17,7 +17,7 @@ export default function Footer() {
                 </a>
             </div>
             <p className="mt-8 text-center text-sm tracking-wide text-slate-700">
-                &copy;compileTab. All Rights Reserved
+                &copy; All Rights Reserved
             </p>
          </div>
     )

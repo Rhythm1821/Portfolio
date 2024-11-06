@@ -19,7 +19,7 @@ export const PROJECTS = [
   {
     name: "GatherLy",
     image: GatherLyImg,
-    url: "https://6nb-energetic-roebling.circumeo-apps.net/",
+    url: "https://gather-ly.vercel.app/",
   },
   {
     name: "RepTracker-AI",
@@ -29,7 +29,7 @@ export const PROJECTS = [
   {
     name: "TweeterSphere",
     image: TweeterSphereImg,
-    url: "https://ma9-innovative-raman.circumeo-apps.net/", // https://tweetersphere.onrender.com 
+    url: "https://tweeter-sphere.vercel.app/", // https://tweetersphere.onrender.com 
   },
 ];
 

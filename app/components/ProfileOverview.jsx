@@ -22,7 +22,7 @@ export default function ProfileOverview() {
                     className="rounded-full border-2 border-slate-400" />
                 <h1 className="text-2xl font-bold">{PROFILE.name}</h1>
                 <p className="tracking-tighter">{PROFILE.city}</p>
-                <a href="./Rhythm_SoftwareEngineer.pdf" 
+                <a href="./Rhythm_Rawat_resume.pdf" 
                     rel="noopener noreferrer" 
                     download
                     target="_blank" 

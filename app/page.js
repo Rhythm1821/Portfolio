@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <ProfileOverview />
-      <Projects />
+      {/* <Projects /> */}
       <Skills />
       <ContactForm />
     </>
